@@ -1,0 +1,20 @@
+# Data and artifacts: never in git
+/data/*/*
+!/data/*/.gitkeep
+/models/*
+!/models/.gitkeep
+mlruns/
+mlflow.db
+*.zip
+
+# Environment and tooling
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.ruff_cache/
+.pytest_cache/
+
+# Secrets
+.env
+kaggle.json
